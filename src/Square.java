@@ -8,6 +8,6 @@ public class Square extends Shape {
 
     @Override
     public double area() {
-        return  (side*side);
+        return  (this.side*this.side);
     }
 }
