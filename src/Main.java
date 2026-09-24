@@ -29,7 +29,7 @@ public class Main {
 
         System.out.println("\n--- Lista original ---");
         for (Shape s : lista){
-            System.out.println(s.toString());
+            System.out.printf("%s -> Área: %.2f%n", s.getClass().getSimpleName(), s.area());
         }
 
         System.out.println("\n--- Lista ordenada ---");
