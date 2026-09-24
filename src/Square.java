@@ -1,13 +1,6 @@
-public class Square extends Shape {
-
-    private double side;
+public class Square extends Rectangle {
 
     public Square(double side) {
-        this.side = side;
-    }
-
-    @Override
-    public double area() {
-        return  (this.side*this.side);
+        super(side, side);
     }
 }
